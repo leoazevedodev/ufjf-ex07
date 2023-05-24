@@ -19,6 +19,7 @@ public:
     int verificaMaior(int val);
     void limpar();
     float calcularMedia();
+    void concatena(ListaEncad *l2);
 
 
 private:

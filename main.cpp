@@ -53,6 +53,16 @@ int main()
 
     cout << "A media e: " << l.calcularMedia() << endl;
 
+    ListaEncad l2;
+
+    l2.insereInicio(98);
+    l2.insereInicio(99);
+
+    l.concatena(&l2);
+
+    l.imprime();
+
+
 
     return 0;
 };

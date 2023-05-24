@@ -202,3 +202,16 @@ float ListaEncad::calcularMedia()
     return soma/n;
 }
 
+void ListaEncad::concatena(ListaEncad *l2)
+{
+    No *p = l2->primeiro;
+    while(p != NULL)
+    {
+        No *t = p->getProx();
+        insereFinal(p->getInfo());
+        p = t;
+    }
+}
+
+
+
