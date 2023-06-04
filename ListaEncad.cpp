@@ -213,5 +213,10 @@ void ListaEncad::concatena(ListaEncad *l2)
     }
 }
 
+ListaEncad* ListaEncad::partir(int x);
+{
+
+}
+
 
 

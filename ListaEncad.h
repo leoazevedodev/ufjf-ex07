@@ -20,6 +20,8 @@ public:
     void limpar();
     float calcularMedia();
     void concatena(ListaEncad *l2);
+    ListaEncad* partir(int x);
+
 
 
 private:
